@@ -108,6 +108,16 @@ input, label {
     margin-bottom: 4px;
 }
 
+input {
+    border: solid 2px #E5E7EB;
+    outline: none;
+}
+
+input:focus {
+    border-color: lightblue;
+}
+
+
 .right-bottom {
     margin-top: 30px;
 }
@@ -156,9 +166,9 @@ label[for="confirmPassword"]:before {
     height: 35px;
     width: 180px;
     color: white;
-    background-color: rgb(50, 155, 50);
+    background-color: #596D48;
     font-weight: bold;
-    border: 2px solid rgb(42, 129, 42);
+    border: none;
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
 }
