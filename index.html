@@ -14,6 +14,7 @@
                 <img src="./img/odin-logo.png" alt="Odin logo">
                 <h1>ODIN</h1>
             </div>
+            <p>Photo by Halle West on Unsplash</p>
         </div>
         <div class="right">
             <div class="right-top">
@@ -24,7 +25,37 @@
                 <p>You <em>know</em> you want to.</p>
             </div>
             <div class="right-middle">
-               test
+                <form action="test">
+                    <p>Let's do this!</p>
+                    <ul>
+                        <li>
+                            <div style="float:left;margin-right:20px;">
+                                <label for="firstName" style="content: 'FIRST NAME';">FIRST NAME</label>
+                                <input type="text" name="userFirstName" id="firstName" required>
+                            </div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="userLastName" id="lastName" required>
+                        </li>
+                        <li>
+                            <div style="float:left;margin-right:20px;">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="userEmail" id="email" required>
+                            </div>                            
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="text" name="userPhoneNumber" id="phoneNumber" required>
+                        </li>
+                        <li>
+                            <div style="float:left;margin-right:20px;">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="userPassword" id="password" required>
+                                <p id="error-message" style="color: red; display: none;">Passwords do not match</p>
+                            </div>
+                        
+                            <label for="confirmPassword">CONFIRM NUMBER</label>
+                            <input type="password" name="userConfirmPassword" id="confirmPassword" required>
+                        </li>
+                    </ul>
+                </form>
             </div>
             <div class="right-bottom">
                 <button>Create account</button>
